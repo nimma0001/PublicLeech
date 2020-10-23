@@ -23,7 +23,7 @@ class Commandi:
     )
     CANCEL = get_config(
         "COMMANDI_CANCEL",
-        "cancel@speedlestbot"
+        "cancel"
     )
     EXEC = get_config(
         "COMMANDI_EXEC",
