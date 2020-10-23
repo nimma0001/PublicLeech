@@ -5,13 +5,6 @@ WORKDIR /app
 
 # https://shouldiblamecaching.com/
 ENV PIP_NO_CACHE_DIR 1
-ENV AUTH_CHANNEL="-1001153895452"
-ENV API_HASH="5e52bbf5687e959215ba2a9463eee2ba"
-ENV APP_ID=1250468
-ENV TG_BOT_TOKEN="1387711232:AAFImx_lJbd_q0Zbidwd_jxXoI07t62zr7Q"
-ENV R_CLONE_CONF_URI="https://t.me/c/1153895452/5649"
-ENV R_CLONE_DEST=Movie
- 
 
 # fix "ephimeral" / "AWS" file-systems
 RUN sed -i.bak 's/us-west-2\.ec2\.//' /etc/apt/sources.list
