@@ -61,14 +61,6 @@ class Commandi:
         "COMMANDI_UPLOAD_LOG_FILE",
         "log"
     )
-    SAVETHUMBNAIL = get_config(
-        "COMMANDI_SAVETHUMBNAIL",
-        "savethumbnail"
-    )
-    CLEARTHUMBNAIL = get_config(
-        "COMMANDI_CLEARTHUMBNAIL",
-        "clearthumbnail"
-    )
     GET_RCLONE_CONF_URI = get_config(
         "COMMANDI_GET_RCLONE_CONF_URI",
         "getrcloneconfuri"
